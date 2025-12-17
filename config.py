@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Google Search API
-GOOGLE_API_KEY = ""
-GOOGLE_CSE_ID = ""
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_CSE_ID = os.getenv("GOOGLE_CSE_ID")
 
 # Ollama Configuration
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
