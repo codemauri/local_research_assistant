@@ -68,7 +68,7 @@ An intelligent research assistant built with LangGraph that autonomously conduct
                     ▼
         ┌───────────────────────────────────┐
         │   VECTOR STORE SERVICE            │
-        │   (ChromaDB + Ollama Embeddings)  │
+        │   (ChromaDB + nomic-embed-text)   │
         │                                   │
         │  Collections:                     │
         │  • web_search (cached results)    │
@@ -178,7 +178,7 @@ An intelligent research assistant built with LangGraph that autonomously conduct
 - **ChromaDB**: Persistent vector storage
   - Collection 1: `web_search` (cached results)
   - Collection 2: `local_document` (research papers)
-  - Embedding: Ollama embeddings (local)
+  - Embedding: nomic-embed-text via Ollama (768 dimensions, optimized for semantic search)
 
 ### Data Processing
 - **langchain_ollama**: Modern embeddings interface
