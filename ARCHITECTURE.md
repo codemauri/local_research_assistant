@@ -788,26 +788,6 @@ AI agent accountability credibility mechanisms frameworks 2024
 
 ---
 
-## Future Enhancements (Ready for Integration)
-
-### Evaluation Framework (Task 4 - Planned)
-- **LangSmith SDK Integration**: Programmatic metrics tracking
-- **LangSmith UI**: Visual evaluation dashboard
-- **Metrics**:
-  - Quantitative: Latency, token usage, API calls, cache hit rate
-  - Qualitative: Fact accuracy, source relevance, citation quality
-- **Dataset**: Ground truth Q&A pairs for benchmarking
-
-### Bonus Extensions
-1. **Clarification Loops**: Ask user questions when query is ambiguous
-2. **Runtime Metrics Dashboard**: Real-time performance monitoring
-3. **Streamlit UI**: Web interface for non-technical users
-4. **Multi-LLM Support**: Compare Ollama vs OpenAI vs Claude
-5. **Citation Verification**: Auto-check if URLs are accessible
-6. **Fact Checking**: Cross-reference against known databases
-
----
-
 ## Configuration
 
 ### Environment Variables (`.env`)
