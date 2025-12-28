@@ -77,9 +77,9 @@ An intelligent research assistant built with LangGraph that autonomously conduct
 
 ---
 
-## System Architecture
+## System Architecture [↑ Index](#table-of-contents)
 
-### High-Level Architecture Diagram
+### High-Level Architecture Diagram [↑ Index](#table-of-contents)
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -139,7 +139,7 @@ An intelligent research assistant built with LangGraph that autonomously conduct
         └───────────────────────────────────┘
 ```
 
-### Workflow State Machine
+### Workflow State Machine [↑ Index](#table-of-contents)
 
 ```
                     START
@@ -221,20 +221,20 @@ An intelligent research assistant built with LangGraph that autonomously conduct
 
 ---
 
-## Technology Stack
+## Technology Stack [↑ Index](#table-of-contents)
 
-### Core Framework
+### Core Framework [↑ Index](#table-of-contents)
 - **LangGraph 0.2+**: State machine orchestration with conditional edges
 - **LangChain Core**: Prompt templates and message structures
 - **Python 3.8+**: Primary implementation language
 
-### LLM Integration
+### LLM Integration [↑ Index](#table-of-contents)
 - **Ollama**: Local LLM inference server
   - Model: Configurable (default: llama2/mistral)
   - Temperature: 0.7 for balanced creativity
   - Structured output: JSON parsing with fallbacks
 
-### Search & Retrieval
+### Search & Retrieval [↑ Index](#table-of-contents)
 - **Google Custom Search API**: Fresh web results
   - Programmable Search Engine (CSE)
   - 5 results per query
@@ -243,20 +243,20 @@ An intelligent research assistant built with LangGraph that autonomously conduct
   - Collection 2: `local_document` (research papers)
   - Embedding: nomic-embed-text via Ollama (768 dimensions, optimized for semantic search)
 
-### Data Processing
+### Data Processing [↑ Index](#table-of-contents)
 - **langchain_ollama**: Modern embeddings interface
 - **google-api-python-client**: Search API client
 - **hashlib + os**: Smart document indexing (file path + mtime)
 
-### Configuration
+### Configuration [↑ Index](#table-of-contents)
 - **python-dotenv**: Environment variable management
 - **TypedDict**: Type-safe state definitions
 
 ---
 
-## Component Breakdown
+## Component Breakdown [↑ Index](#table-of-contents)
 
-### 1. Workflow Engine (`workflow.py`)
+### 1. Workflow Engine (`workflow.py`) [↑ Index](#table-of-contents)
 
 **Purpose**: Orchestrates the research process as a state machine
 
@@ -309,7 +309,7 @@ class ResearchState(TypedDict):
 | `summarize`             | Extract structured facts                    | Yes      | `summary`               |
 | `format_output`         | Create final markdown report                | Yes      | `output`                |
 
-### 2. Prompt Templates (`prompt_templates.py`)
+### 2. Prompt Templates (`prompt_templates.py`) [↑ Index](#table-of-contents)
 
 **Design Pattern**: SYSTEM → TASK → CONTEXT → OUTPUT FORMAT
 
@@ -354,7 +354,7 @@ class ResearchState(TypedDict):
    - Optional: Detailed fact validation (with `--detailed-output`)
    - Output: Final report
 
-### 3. LLM Service (`llm_service.py`)
+### 3. LLM Service (`llm_service.py`) [↑ Index](#table-of-contents)
 
 **Architecture**: Single service class with method-per-template
 
@@ -382,7 +382,7 @@ except json.JSONDecodeError:
     return {"validated_facts": [], ...}
 ```
 
-### 4. Vector Store Service (`vector_store_service.py`)
+### 4. Vector Store Service (`vector_store_service.py`) [↑ Index](#table-of-contents)
 
 **Purpose**: Semantic search and caching with ChromaDB
 
@@ -456,7 +456,7 @@ search_local_documents(
 - Filter irrelevant results with score thresholds
 - Full transparency with source type labels and relevance scores
 
-### 5. Search Service (`search_service.py`)
+### 5. Search Service (`search_service.py`) [↑ Index](#table-of-contents)
 
 **Purpose**: Google Custom Search API integration
 
@@ -479,9 +479,9 @@ Content: Snippet text...
 
 ---
 
-## Key Design Decisions
+## Key Design Decisions [↑ Index](#table-of-contents)
 
-### 1. Conditional Routing for Agentic Behavior
+### 1. Conditional Routing for Agentic Behavior [↑ Index](#table-of-contents)
 
 **Problem**: Static workflows can't adapt to poor search results
 
@@ -507,7 +507,7 @@ def _route_after_evaluation(state):
 - Prevents infinite loops
 - Balances quality vs execution time
 
-### 2. Multi-Source Integration with Transparency
+### 2. Multi-Source Integration with Transparency [↑ Index](#table-of-contents)
 
 **Challenge**: Users need to verify source usage, especially local documents
 
@@ -542,7 +542,7 @@ if local_docs:
 }
 ```
 
-### 3. Dual Output Modes
+### 3. Dual Output Modes [↑ Index](#table-of-contents)
 
 **Use Cases**:
 - **General Use**: Clean, concise summaries
@@ -560,27 +560,27 @@ python main.py --detailed-output "query"
 **Output Difference**:
 ```markdown
 # General Mode
-## Summary and Facts
+## Summary and Facts [↑ Index](#table-of-contents)
 [Clean summary with numbered facts]
 
-## Sources
+## Sources [↑ Index](#table-of-contents)
 1. Source 1
 2. Source 2
 
 # Detailed Mode
-## Summary and Facts
+## Summary and Facts [↑ Index](#table-of-contents)
 [Same summary]
 
-## Detailed Fact Validation
+## Detailed Fact Validation [↑ Index](#table-of-contents)
 1. **Fact statement**
    - Confidence: high
    - Supporting sources: WEB: Source 1, LOCAL: paper.md
 
-## Sources
+## Sources [↑ Index](#table-of-contents)
 [Same sources list]
 ```
 
-### 4. Smart Document Indexing
+### 4. Smart Document Indexing [↑ Index](#table-of-contents)
 
 **Challenge**: Avoid re-indexing unchanged files
 
@@ -602,7 +602,7 @@ else:
 - Automatic re-indexing on file changes
 - Scalable to large document collections
 
-### 5. Lenient Search Evaluation
+### 5. Lenient Search Evaluation [↑ Index](#table-of-contents)
 
 **Problem**: Overly critical evaluation → unnecessary loops → slow execution
 
@@ -623,9 +623,9 @@ IMPORTANT GUIDELINES:
 
 ---
 
-## Execution Modes
+## Execution Modes [↑ Index](#table-of-contents)
 
-### Standard Mode
+### Standard Mode [↑ Index](#table-of-contents)
 ```bash
 python main.py "research query"
 ```
@@ -633,7 +633,7 @@ python main.py "research query"
 - Formatted output
 - All workflow steps
 
-### Tools Mode
+### Tools Mode [↑ Index](#table-of-contents)
 ```bash
 python main.py --enable-tools "research query"
 ```
@@ -642,7 +642,7 @@ python main.py --enable-tools "research query"
 - Retrieves local documents
 - Builds persistent knowledge base
 
-### Fast Mode
+### Fast Mode [↑ Index](#table-of-contents)
 ```bash
 python main.py --skip-formatting "research query"
 ```
@@ -650,7 +650,7 @@ python main.py --skip-formatting "research query"
 - Returns raw summary
 - Saves ~10-15 seconds
 
-### Demo Mode
+### Demo Mode [↑ Index](#table-of-contents)
 ```bash
 python main.py --enable-tools --detailed-output "research query"
 ```
@@ -659,7 +659,7 @@ python main.py --enable-tools --detailed-output "research query"
 - Demonstrates local document integration
 - Ideal for presentations
 
-### Combined
+### Combined [↑ Index](#table-of-contents)
 ```bash
 python main.py --enable-tools --skip-formatting --detailed-output "query"
 ```
@@ -668,9 +668,9 @@ python main.py --enable-tools --skip-formatting --detailed-output "query"
 
 ---
 
-## Testing & Transparency
+## Testing & Transparency [↑ Index](#table-of-contents)
 
-### Test Script (`test_workflow_transparency.py`)
+### Test Script (`test_workflow_transparency.py`) [↑ Index](#table-of-contents)
 
 **Purpose**: Full visibility into workflow execution
 
@@ -704,9 +704,9 @@ python test_workflow_transparency.py
 
 ---
 
-## Performance Characteristics
+## Performance Characteristics [↑ Index](#table-of-contents)
 
-### LLM Calls per Query
+### LLM Calls per Query [↑ Index](#table-of-contents)
 
 | Mode                      | Minimum | Maximum | Average |
 |---------------------------|---------|---------|---------|
@@ -723,7 +723,7 @@ python test_workflow_transparency.py
 6. Summarize
 7. Format Output (optional)
 
-### Execution Time (Estimated)
+### Execution Time (Estimated) [↑ Index](#table-of-contents)
 
 | Configuration                      | Time         |
 |------------------------------------|--------------|
@@ -734,7 +734,7 @@ python test_workflow_transparency.py
 | --enable-tools (first run)         | +5-10s       |
 | --enable-tools (subsequent)        | +2-3s        |
 
-### API Usage
+### API Usage [↑ Index](#table-of-contents)
 
 **Google Custom Search API**:
 - Standard query: 1-4 requests (5 results each)
@@ -747,9 +747,9 @@ python test_workflow_transparency.py
 
 ---
 
-## Data Flow Example
+## Data Flow Example [↑ Index](#table-of-contents)
 
-### Query: "What has been done for AI agents accountability and credibility"
+### Query: "What has been done for AI agents accountability and credibility" [↑ Index](#table-of-contents)
 
 **Step 1: Parse Intent**
 ```json
@@ -829,21 +829,21 @@ Key Facts:
 ```markdown
 # Research Results
 
-## Original Query
+## Original Query [↑ Index](#table-of-contents)
 What has been done for AI agents accountability and credibility
 
-## Search Query Used
+## Search Query Used [↑ Index](#table-of-contents)
 AI agent accountability credibility mechanisms frameworks 2024
 
-## Summary and Facts
+## Summary and Facts [↑ Index](#table-of-contents)
 [Summary from Step 7]
 
-## Detailed Fact Validation (if --detailed-output)
+## Detailed Fact Validation (if --detailed-output) [↑ Index](#table-of-contents)
 1. **BindingAgent introduces binding commitments for accountability**
    - Confidence: high
    - Supporting sources: LOCAL: BindingAgent.md, WEB: NTIA Report
 
-## Sources
+## Sources [↑ Index](#table-of-contents)
 1. [BindingAgent Paper](./documents/markdown/BindingAgent.md)
 2. [NTIA AI Accountability Report](https://example.com/ntia-report)
 ...
@@ -851,9 +851,9 @@ AI agent accountability credibility mechanisms frameworks 2024
 
 ---
 
-## Configuration
+## Configuration [↑ Index](#table-of-contents)
 
-### Environment Variables (`.env`)
+### Environment Variables (`.env`) [↑ Index](#table-of-contents)
 ```bash
 # Required
 GOOGLE_API_KEY=your_google_api_key
@@ -864,7 +864,7 @@ OLLAMA_BASE_URL=http://localhost:11434
 OLLAMA_MODEL=llama2  # or mistral, mixtral, etc.
 ```
 
-### Configurable Parameters
+### Configurable Parameters [↑ Index](#table-of-contents)
 
 **In `workflow.py`**:
 ```python
@@ -896,9 +896,9 @@ GoogleSearchService.search(
 
 ---
 
-## Installation & Setup
+## Installation & Setup [↑ Index](#table-of-contents)
 
-### Prerequisites
+### Prerequisites [↑ Index](#table-of-contents)
 ```bash
 # Python 3.8+
 python --version
@@ -908,7 +908,7 @@ ollama serve
 ollama pull llama2  # or your preferred model
 ```
 
-### Installation
+### Installation [↑ Index](#table-of-contents)
 ```bash
 # Clone repository
 git clone <repo_url>
@@ -922,7 +922,7 @@ cp .env.example .env
 # Edit .env with your Google API credentials
 ```
 
-### First Run
+### First Run [↑ Index](#table-of-contents)
 ```bash
 # Test basic functionality
 python main.py "What is LangGraph?"
@@ -936,7 +936,7 @@ python main.py --enable-tools --detailed-output "recent AI developments"
 
 ---
 
-## Project Structure
+## Project Structure [↑ Index](#table-of-contents)
 
 ```
 local_research_assistant/
@@ -961,7 +961,7 @@ local_research_assistant/
 
 ---
 
-## Acknowledgments
+## Acknowledgments [↑ Index](#table-of-contents)
 
 **Frameworks**:
 - LangGraph by LangChain
@@ -977,13 +977,13 @@ local_research_assistant/
 
 ---
 
-## Recent Improvements & Optimizations
+## Recent Improvements & Optimizations [↑ Index](#table-of-contents)
 
-### Post-Task 4 Enhancements (December 2024)
+### Post-Task 4 Enhancements (December 2024) [↑ Index](#table-of-contents)
 
 After completing the core implementation (Tasks 1-4), several critical improvements were made to enhance accuracy, performance, and transparency.
 
-#### 1. Embedding Model Migration
+#### 1. Embedding Model Migration [↑ Index](#table-of-contents)
 
 **Problem Identified**: The system was using `llama3.2` (a chat model) for embeddings, resulting in poor semantic similarity scores.
 
@@ -1022,7 +1022,7 @@ def __init__(self, embedding_model: str = "nomic-embed-text"):  # Changed from l
 
 **Verification**: New utility `verify_embeddings.py` confirms database dimensions
 
-#### 2. Relevance Filtering with Score Thresholds
+#### 2. Relevance Filtering with Score Thresholds [↑ Index](#table-of-contents)
 
 **Problem**: Semantically similar but irrelevant documents contaminated answers
 - Example: "AI accountability" documents appearing in "US vs China AI" queries
@@ -1075,7 +1075,7 @@ python main.py --enable-tools --relevance-threshold=0.3 "query"
 - Full transparency (shows filtered documents in verbose mode)
 - Consistent filtering across all vector searches
 
-#### 3. Enhanced JSON Parsing with Auto-Fixes
+#### 3. Enhanced JSON Parsing with Auto-Fixes [↑ Index](#table-of-contents)
 
 **Problem**: LLM frequently generated invalid JSON, causing workflow failures
 
@@ -1140,7 +1140,7 @@ CORRECT (DO THIS):
 - Detailed debugging output for troubleshooting
 - Reduced workflow failures by ~90%
 
-#### 4. Enhanced Test Script Transparency
+#### 4. Enhanced Test Script Transparency [↑ Index](#table-of-contents)
 
 **Updates to `test_workflow_transparency.py`**:
 
@@ -1182,7 +1182,7 @@ python test_workflow_transparency.py --enable-tools --detailed-output "query"
       Preview: Content...
 ```
 
-#### 5. Verification Utilities
+#### 5. Verification Utilities [↑ Index](#table-of-contents)
 
 **New Files**:
 
@@ -1215,7 +1215,7 @@ python test_workflow_transparency.py --enable-tools --detailed-output "query"
    - Validation checks
    - Rollback instructions
 
-#### 6. Task 4 Completion: Evaluation Framework
+#### 6. Task 4 Completion: Evaluation Framework [↑ Index](#table-of-contents)
 
 **Objective**: Systematic quality assessment using LangSmith with mixed evaluator types (LLM-as-judge + deterministic metrics)
 
@@ -1347,7 +1347,7 @@ def research_assistant_target(inputs: dict) -> dict:
 - ✅ "LangSmith dashboard provides visual tracking of quality metrics over time"
 - ✅ "Flexible dataset schema makes it easy to add new test cases"
 
-#### 7. CLI Configuration Enhancements
+#### 7. CLI Configuration Enhancements [↑ Index](#table-of-contents)
 
 **New in `main.py`**:
 
@@ -1369,7 +1369,7 @@ python main.py --enable-tools --relevance-threshold=0.3 --cached-results=5 "quer
 - Clear error messages with suggested values
 - Shows active configuration in output
 
-#### 8. Updated Technology Stack
+#### 8. Updated Technology Stack [↑ Index](#table-of-contents)
 
 **Embeddings**:
 - **Before**: llama3.2 (3072 dimensions, chat model)
@@ -1386,7 +1386,7 @@ vector_store_service = VectorStoreService(
 # Configurable via environment if needed
 ```
 
-### Impact Summary
+### Impact Summary [↑ Index](#table-of-contents)
 
 | Improvement | Before | After | Benefit |
 |------------|--------|-------|---------|
@@ -1398,7 +1398,7 @@ vector_store_service = VectorStoreService(
 | Transparency | Limited | Full scoring | Better debugging |
 | Evaluation | Manual | LangSmith automated | Systematic tracking |
 
-### Migration Checklist (For New Deployments)
+### Migration Checklist (For New Deployments) [↑ Index](#table-of-contents)
 
 If you have an existing deployment with llama3.2 embeddings:
 
@@ -1413,13 +1413,13 @@ If you have an existing deployment with llama3.2 embeddings:
 
 ---
 
-## License
+## License [↑ Index](#table-of-contents)
 
 [Specify License]
 
 ---
 
-## Contact & Support
+## Contact & Support [↑ Index](#table-of-contents)
 
 [Project maintainer information]
 
