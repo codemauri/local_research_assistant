@@ -349,22 +349,49 @@ except json.JSONDecodeError:
 
 **3. Similarity Search (Cached Results)**
 ```python
-similarity_search(query, top_k=3, filter=None)
-# Returns: List of cached results similar to query
+similarity_search(
+    query,
+    top_k=3,
+    score_threshold=0.5,
+    filter_metadata=None,
+    verbose=False
+)
+# Returns: List of cached results with relevance scores
+# Filters by L2 distance (lower = more similar)
+# Only includes documents with score <= threshold
 ```
 
 **4. Search Local Documents**
 ```python
-search_local_documents(query, top_k=2)
+search_local_documents(
+    query,
+    top_k=2,
+    score_threshold=0.5,
+    verbose=False
+)
 # Uses metadata filter: {"source": "local_document"}
-# Prevents contamination with web results
+# Filters by relevance threshold (L2 distance)
+# Returns documents with relevance_score field
+# Typical thresholds: 0.3 (strict), 0.5 (moderate), 2.0 (lenient)
 ```
+
+**Relevance Filtering** (Added in v2.0):
+- **L2 Distance Scoring**: Each result gets a score (lower = more similar)
+- **Threshold Filtering**: Only results with score ≤ threshold are included
+- **Configurable Strictness**:
+  - `0` = No filtering (all results)
+  - `0.3` = Strict (highly relevant only)
+  - `0.5` = Moderate (default)
+  - `2.0` = Lenient (broader results)
+- **Transparency**: Scores shown in verbose mode and test script
+- **Prevents Contamination**: Filters irrelevant semantically-similar documents
 
 **Benefits**:
 - Build knowledge base across runs
 - Reduce API calls to Google CSE
 - Enable semantic search over local research papers
-- Full transparency with source type labels
+- Filter irrelevant results with score thresholds
+- Full transparency with source type labels and relevance scores
 
 ### 5. Search Service (`search_service.py`)
 
