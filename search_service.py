@@ -52,11 +52,10 @@ class GoogleSearchService:
     
     def format_results_for_llm(self, results: List[Dict[str, str]]) -> str:
         """Format search results into a string suitable for LLM processing."""
-        formatted = "=== Search Results ===\n\n"
+        formatted = "=== FRESH WEB SEARCH RESULTS ===\n\n"
         for i, result in enumerate(results, 1):
-            formatted += f"Result {i}:\n"
-            formatted += f"Title: {result['title']}\n"
+            formatted += f"[WEB] {result['title']}:\n"
             formatted += f"URL: {result['link']}\n"
-            formatted += f"Summary: {result['snippet']}\n\n"
+            formatted += f"Content: {result['snippet']}\n\n"
         return formatted
 

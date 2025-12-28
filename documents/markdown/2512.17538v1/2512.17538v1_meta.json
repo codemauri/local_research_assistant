@@ -1,0 +1,2212 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Binding Agent ID: Unleashing the Power of AI Agents with\naccountability and credibility",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          48.890625,
+          53.11425781249999
+        ],
+        [
+          463.92578125,
+          53.11425781249999
+        ],
+        [
+          463.92578125,
+          93.3057861328125
+        ],
+        [
+          48.890625,
+          93.3057861328125
+        ]
+      ]
+    },
+    {
+      "title": "A R T I C L E I N F O",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          49.47265625,
+          165.5458984375
+        ],
+        [
+          136.77734375,
+          165.5458984375
+        ],
+        [
+          136.77734375,
+          177.21832275390625
+        ],
+        [
+          49.47265625,
+          177.21832275390625
+        ]
+      ]
+    },
+    {
+      "title": "Keywords:\nAI Agent Identity\nAgent Authentication\nAgent Accountability\nZero-Knowledge Virtual Machine\nBlockchain",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          48.890625,
+          185.7060546875
+        ],
+        [
+          159.4931640625,
+          185.7060546875
+        ],
+        [
+          159.4931640625,
+          242.486083984375
+        ],
+        [
+          48.890625,
+          242.486083984375
+        ]
+      ]
+    },
+    {
+      "title": "A B S T R A C T",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          222.91796875,
+          167.484375
+        ],
+        [
+          289.26953125,
+          167.484375
+        ],
+        [
+          289.26953125,
+          178.21429443359375
+        ],
+        [
+          222.91796875,
+          178.21429443359375
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          51.30699920654297,
+          321.3994140625
+        ],
+        [
+          131.20359802246094,
+          321.3994140625
+        ],
+        [
+          131.20359802246094,
+          333.9196472167969
+        ],
+        [
+          51.30699920654297,
+          333.9196472167969
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Motivating Example: E-commerce\nProcurement",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          50.0546875,
+          612.6473388671875
+        ],
+        [
+          234.00283813476562,
+          612.6473388671875
+        ],
+        [
+          234.00283813476562,
+          636.5582427978516
+        ],
+        [
+          50.0546875,
+          636.5582427978516
+        ]
+      ]
+    },
+    {
+      "title": "1.2. The Gap: Autonomous Capabilities Without Identity Infrastructure",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          50.29219143576826,
+          434.113314447592
+        ],
+        [
+          282.2367758186398,
+          434.113314447592
+        ],
+        [
+          282.2367758186398,
+          458.25585937499994
+        ],
+        [
+          50.29219143576826,
+          458.25585937499994
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Our Contributions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          305.5062972292191,
+          522.5854579792257
+        ],
+        [
+          417.35012594458436,
+          522.5854579792257
+        ],
+        [
+          417.35012594458436,
+          531.5302734375
+        ],
+        [
+          305.5062972292191,
+          531.5302734375
+        ]
+      ]
+    },
+    {
+      "title": "2. Technical Preliminaries",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          50.63671875,
+          338.4580078125
+        ],
+        [
+          187.11810302734375,
+          338.4580078125
+        ],
+        [
+          187.11810302734375,
+          350.6747741699219
+        ],
+        [
+          50.63671875,
+          350.6747741699219
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Blockchain",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          50.0546875,
+          388.0830078125
+        ],
+        [
+          125.71875,
+          388.0830078125
+        ],
+        [
+          125.71875,
+          400.12652587890625
+        ],
+        [
+          50.0546875,
+          400.12652587890625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Zero-Knowledge Virtual Machine",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          50.63671875,
+          650.1535034179688
+        ],
+        [
+          231.29598999023438,
+          650.1535034179688
+        ],
+        [
+          231.29598999023438,
+          661.1124114990234
+        ],
+        [
+          50.63671875,
+          661.1124114990234
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Verifiable Credentials",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          50.345703125,
+          254.71582031249997
+        ],
+        [
+          175.59193420410156,
+          254.71582031249997
+        ],
+        [
+          175.59193420410156,
+          266.2825927734375
+        ],
+        [
+          50.345703125,
+          266.2825927734375
+        ]
+      ]
+    },
+    {
+      "title": "3. BAID System Overview",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          51.21875,
+          642.2003784179688
+        ],
+        [
+          186.66380310058594,
+          642.2003784179688
+        ],
+        [
+          186.66380310058594,
+          654.1555786132812
+        ],
+        [
+          51.21875,
+          654.1555786132812
+        ]
+      ]
+    },
+    {
+      "title": "4. BAID System Designs",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          50.0546875,
+          447.60906515580734
+        ],
+        [
+          178.6498740554156,
+          447.60906515580734
+        ],
+        [
+          178.6498740554156,
+          457.48046874999994
+        ],
+        [
+          50.0546875,
+          457.48046874999994
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Local User-Agent Binding via Biometric Authentication",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          50.0546875,
+          606.5590179414542
+        ],
+        [
+          261.9697732997481,
+          606.5590179414542
+        ],
+        [
+          261.9697732997481,
+          628.3021718602455
+        ],
+        [
+          50.0546875,
+          628.3021718602455
+        ]
+      ]
+    },
+    {
+      "title": "4.1.1. Agent Architecture",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.7556675062972,
+          309.6525023607176
+        ],
+        [
+          417.35012594458436,
+          309.6525023607176
+        ],
+        [
+          417.35012594458436,
+          319.8486328125
+        ],
+        [
+          304.7556675062972,
+          319.8486328125
+        ]
+      ]
+    },
+    {
+      "title": "4.1.2. Biometric Template Registration and Verification",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.7556675062972,
+          640.8603515625
+        ],
+        [
+          496.1662468513854,
+          640.8603515625
+        ],
+        [
+          496.1662468513854,
+          663.5410764872521
+        ],
+        [
+          304.7556675062972,
+          663.5410764872521
+        ]
+      ]
+    },
+    {
+      "title": "4.2. On-Chain Identity Management",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          49.47265625,
+          588.1337890625
+        ],
+        [
+          225.1889168765743,
+          588.1337890625
+        ],
+        [
+          225.1889168765743,
+          597.561850802644
+        ],
+        [
+          49.47265625,
+          597.561850802644
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1. Identity Management Smart Contract\nFramework",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          304.7556675062972,
+          207.029296875
+        ],
+        [
+          498.4181360201511,
+          207.029296875
+        ],
+        [
+          498.4181360201511,
+          228.67799811142586
+        ],
+        [
+          304.7556675062972,
+          228.67799811142586
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2. On-Chain Identity Registration and Binding Workflow",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          49.541561712846345,
+          364.8212890625
+        ],
+        [
+          272.4785894206549,
+          364.8212890625
+        ],
+        [
+          272.4785894206549,
+          385.7568359375
+        ],
+        [
+          49.541561712846345,
+          385.7568359375
+        ]
+      ]
+    },
+    {
+      "title": "4.3. zkVM-Based Agent Identity Authentication Protocol",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          304.7556675062972,
+          476.47753906249994
+        ],
+        [
+          533.6977329974811,
+          476.47753906249994
+        ],
+        [
+          533.6977329974811,
+          497.41308593749994
+        ],
+        [
+          304.7556675062972,
+          497.41308593749994
+        ]
+      ]
+    },
+    {
+      "title": "4.3.1. User-to-Agent Authorization",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          49.541561712846345,
+          224.86328124999997
+        ],
+        [
+          202.67002518891687,
+          224.86328124999997
+        ],
+        [
+          202.67002518891687,
+          234.16796874999997
+        ],
+        [
+          49.541561712846345,
+          234.16796874999997
+        ]
+      ]
+    },
+    {
+      "title": "4.3.2. zkVM-Based Agent Identity Authentication",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          49.47265625,
+          569.5244140625
+        ],
+        [
+          266.47355163727957,
+          569.5244140625
+        ],
+        [
+          266.47355163727957,
+          579.5675165250236
+        ],
+        [
+          49.47265625,
+          579.5675165250236
+        ]
+      ]
+    },
+    {
+      "title": "5. Implementation and Performance Evaluation",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          305.5062972292191,
+          608.0585457979225
+        ],
+        [
+          496.1662468513854,
+          608.0585457979225
+        ],
+        [
+          496.1662468513854,
+          631.16796875
+        ],
+        [
+          305.5062972292191,
+          631.16796875
+        ]
+      ]
+    },
+    {
+      "title": "5.1. Identity Management Smart Contracts\nPerformance",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          50.63671875,
+          183.767578125
+        ],
+        [
+          255.41648864746094,
+          183.767578125
+        ],
+        [
+          255.41648864746094,
+          207.88946533203125
+        ],
+        [
+          50.63671875,
+          207.88946533203125
+        ]
+      ]
+    },
+    {
+      "title": "5.2. Verifiable Agent System Performance",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          306.1484375,
+          263.6328125
+        ],
+        [
+          504.0390625,
+          263.6328125
+        ],
+        [
+          504.0390625,
+          274.888427734375
+        ],
+        [
+          306.1484375,
+          274.888427734375
+        ]
+      ]
+    },
+    {
+      "title": "6. Related Work",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          50.345703125,
+          541.6103515625
+        ],
+        [
+          137.27685546875,
+          541.6103515625
+        ],
+        [
+          137.27685546875,
+          553.6126098632812
+        ],
+        [
+          50.345703125,
+          553.6126098632812
+        ]
+      ]
+    },
+    {
+      "title": "7. Conclusion",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          50.63671875,
+          553.6123962402344
+        ],
+        [
+          123.38491821289062,
+          553.6123962402344
+        ],
+        [
+          123.38491821289062,
+          565.5675964355469
+        ],
+        [
+          50.63671875,
+          565.5675964355469
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          305.857421875,
+          218.8675537109375
+        ],
+        [
+          361.9804992675781,
+          218.8675537109375
+        ],
+        [
+          361.9804992675781,
+          230.82275390625
+        ],
+        [
+          305.857421875,
+          230.82275390625
+        ]
+      ]
+    },
+    {
+      "title": "A. zkVM-based Authentication Protocol\nTechnical Specifications",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          305.56640625,
+          264.51666259765625
+        ],
+        [
+          514.265869140625,
+          264.51666259765625
+        ],
+        [
+          514.265869140625,
+          290.41986083984375
+        ],
+        [
+          305.56640625,
+          290.41986083984375
+        ]
+      ]
+    },
+    {
+      "title": "A.1. Limitations of Key-Based Authentication",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          306.1484375,
+          413.7296447753906
+        ],
+        [
+          522.6640625,
+          413.7296447753906
+        ],
+        [
+          522.6640625,
+          424.68853759765625
+        ],
+        [
+          306.1484375,
+          424.68853759765625
+        ]
+      ]
+    },
+    {
+      "title": "A.2. Code-Level Authentication",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          306.60400390625,
+          687.3837890625
+        ],
+        [
+          456.89453125,
+          687.3837890625
+        ],
+        [
+          456.89453125,
+          698.7614517211914
+        ],
+        [
+          306.60400390625,
+          698.7614517211914
+        ]
+      ]
+    },
+    {
+      "title": "A.3. zkVM-Based Agent Authentication Protocol\nWorkflow",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          50.0546875,
+          479.57910156249994
+        ],
+        [
+          282.2367758186398,
+          479.57910156249994
+        ],
+        [
+          282.2367758186398,
+          500.51464843749994
+        ],
+        [
+          50.0546875,
+          500.51464843749994
+        ]
+      ]
+    },
+    {
+      "title": "A.4. Execution Continuity Across Conversational Turns",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          304.7556675062972,
+          56.21582031249999
+        ],
+        [
+          539.7027707808564,
+          56.21582031249999
+        ],
+        [
+          539.7027707808564,
+          77.1513671875
+        ],
+        [
+          304.7556675062972,
+          77.1513671875
+        ]
+      ]
+    },
+    {
+      "title": "A.4.1. Problem Statement",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          304.7556675062972,
+          81.72426817752596
+        ],
+        [
+          421.10327455919395,
+          81.72426817752596
+        ],
+        [
+          421.10327455919395,
+          89.97167138810198
+        ],
+        [
+          304.7556675062972,
+          89.97167138810198
+        ]
+      ]
+    },
+    {
+      "title": "A.4.2. Recursive Proof Algorithm",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          304.7556675062972,
+          364.43359375
+        ],
+        [
+          454.88161209068005,
+          364.43359375
+        ],
+        [
+          454.88161209068005,
+          374.1322001888574
+        ],
+        [
+          304.7556675062972,
+          374.1322001888574
+        ]
+      ]
+    },
+    {
+      "title": "Security Properties.",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          321.26952141057933,
+          709.0947265625
+        ],
+        [
+          408.294921875,
+          709.0947265625
+        ],
+        [
+          408.294921875,
+          719.0236071765817
+        ],
+        [
+          321.26952141057933,
+          719.0236071765817
+        ]
+      ]
+    },
+    {
+      "title": "A.5. External Communication Provenance A.5.1. Problem Statement",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          303.8203125,
+          55.05273437499999
+        ],
+        [
+          508.176322418136,
+          55.05273437499999
+        ],
+        [
+          508.176322418136,
+          77.97544853635505
+        ],
+        [
+          303.8203125,
+          77.97544853635505
+        ]
+      ]
+    },
+    {
+      "title": "A.5.2. zkTLS Integration for Verifiable HTTPS Communications",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          304.7556675062972,
+          281.1614730878187
+        ],
+        [
+          513.4307304785893,
+          281.1614730878187
+        ],
+        [
+          513.4307304785893,
+          302.90462700661
+        ],
+        [
+          304.7556675062972,
+          302.90462700661
+        ]
+      ]
+    },
+    {
+      "title": "Standard TLS Workflow:",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          320.1171875,
+          377.615234375
+        ],
+        [
+          430.8614609571788,
+          377.615234375
+        ],
+        [
+          430.8614609571788,
+          386.8781869688385
+        ],
+        [
+          320.1171875,
+          386.8781869688385
+        ]
+      ]
+    },
+    {
+      "title": "zkTLS Extension:",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          318.953125,
+          456.60623229461754
+        ],
+        [
+          399.3350125944584,
+          456.60623229461754
+        ],
+        [
+          399.3350125944584,
+          466.39746093749994
+        ],
+        [
+          318.953125,
+          466.39746093749994
+        ]
+      ]
+    },
+    {
+      "title": "(a) Validates TLS Communication Provenance:",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          64.0234375,
+          132.9794921875
+        ],
+        [
+          266.9375915527344,
+          132.9794921875
+        ],
+        [
+          266.9375915527344,
+          143.5162353515625
+        ],
+        [
+          64.0234375,
+          143.5162353515625
+        ]
+      ]
+    },
+    {
+      "title": "A.6. Three-Phase Verification Pipeline",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          50.63671875,
+          584.4893951416016
+        ],
+        [
+          233.39453125,
+          584.4893951416016
+        ],
+        [
+          233.39453125,
+          595.4483032226562
+        ],
+        [
+          50.63671875,
+          595.4483032226562
+        ]
+      ]
+    },
+    {
+      "title": "A.6.1. Phase 1: Operator Biometric Authentication",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          306.6040344238281,
+          57.37890624999999
+        ],
+        [
+          528.5298461914062,
+          57.37890624999999
+        ],
+        [
+          528.5298461914062,
+          67.909423828125
+        ],
+        [
+          306.6040344238281,
+          67.909423828125
+        ]
+      ]
+    },
+    {
+      "title": "Privacy-Preserving Facial Recognition:",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          321.54803466796875,
+          105.75750732421875
+        ],
+        [
+          487.7421875,
+          105.75750732421875
+        ],
+        [
+          487.7421875,
+          115.7200927734375
+        ],
+        [
+          321.54803466796875,
+          115.7200927734375
+        ]
+      ]
+    },
+    {
+      "title": "A.6.2. Phase 2: Agent Configuration Integrity",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          304.984375,
+          375.2890625
+        ],
+        [
+          506.1646728515625,
+          375.2890625
+        ],
+        [
+          506.1646728515625,
+          385.83856201171875
+        ],
+        [
+          304.984375,
+          385.83856201171875
+        ]
+      ]
+    },
+    {
+      "title": "Protocol Steps:",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          321.54803466796875,
+          411.3447265625
+        ],
+        [
+          385.737060546875,
+          411.3447265625
+        ],
+        [
+          385.737060546875,
+          421.69415283203125
+        ],
+        [
+          321.54803466796875,
+          421.69415283203125
+        ]
+      ]
+    },
+    {
+      "title": "A.6.3. Phase 3: Iterative Task Execution",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          48.79093198992443,
+          161.94900849858357
+        ],
+        [
+          228.19143576826195,
+          161.94900849858357
+        ],
+        [
+          228.19143576826195,
+          171.7490234375
+        ],
+        [
+          48.79093198992443,
+          171.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "B. Security Analysis",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          49.541561712846345,
+          705.5278564683663
+        ],
+        [
+          157.632241813602,
+          705.5278564683663
+        ],
+        [
+          157.632241813602,
+          715.2747875354107
+        ],
+        [
+          49.541561712846345,
+          715.2747875354107
+        ]
+      ]
+    },
+    {
+      "title": "B.1. Threat Model",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          304.693359375,
+          91.1083984375
+        ],
+        [
+          396.33249370277076,
+          91.1083984375
+        ],
+        [
+          396.33249370277076,
+          101.21813031161473
+        ],
+        [
+          304.693359375,
+          101.21813031161473
+        ]
+      ]
+    },
+    {
+      "title": "B.2. Security Properties and Defenses",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          304.7556675062972,
+          358.38715769593955
+        ],
+        [
+          505.203125,
+          358.38715769593955
+        ],
+        [
+          505.203125,
+          372.1875
+        ],
+        [
+          304.7556675062972,
+          372.1875
+        ]
+      ]
+    },
+    {
+      "title": "B.2.1. Defense Against Code Substitution Attacks",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          304.7556675062972,
+          368.310546875
+        ],
+        [
+          522.4382871536524,
+          368.310546875
+        ],
+        [
+          522.4382871536524,
+          379.3805476864967
+        ],
+        [
+          304.7556675062972,
+          379.3805476864967
+        ]
+      ]
+    },
+    {
+      "title": "B.2.2. Defense Against Replay and Reordering Attacks",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          304.7556675062972,
+          547.3276676109537
+        ],
+        [
+          545.36328125,
+          547.3276676109537
+        ],
+        [
+          545.36328125,
+          557.0745986779981
+        ],
+        [
+          304.7556675062972,
+          557.0745986779981
+        ]
+      ]
+    },
+    {
+      "title": "B.2.3. Defense Against Data Fabrication\n(Man-in-the-Middle)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          48.890625,
+          57.37890624999999
+        ],
+        [
+          229.0150909423828,
+          57.37890624999999
+        ],
+        [
+          229.0150909423828,
+          79.86456298828125
+        ],
+        [
+          48.890625,
+          79.86456298828125
+        ]
+      ]
+    },
+    {
+      "title": "B.2.4. Defense Against Sybil and Impersonation\nAttacks",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          50.0546875,
+          222.92480468749997
+        ],
+        [
+          261.9140625,
+          222.92480468749997
+        ],
+        [
+          261.9140625,
+          245.34368896484375
+        ],
+        [
+          50.0546875,
+          245.34368896484375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          304
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          114
+        ],
+        [
+          "Span",
+          57
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          363
+        ],
+        [
+          "Line",
+          112
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          287
+        ],
+        [
+          "Line",
+          115
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          97
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          37
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          31
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          123
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          127
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          230
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "TableCell",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          260
+        ],
+        [
+          "Line",
+          114
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          268
+        ],
+        [
+          "Line",
+          120
+        ],
+        [
+          "Reference",
+          14
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          316
+        ],
+        [
+          "Line",
+          124
+        ],
+        [
+          "ListItem",
+          26
+        ],
+        [
+          "Reference",
+          24
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          133
+        ],
+        [
+          "Span",
+          130
+        ],
+        [
+          "Text",
+          26
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          139
+        ],
+        [
+          "Span",
+          132
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          463
+        ],
+        [
+          "Line",
+          119
+        ],
+        [
+          "ListItem",
+          17
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          181
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2512.17538v1"
+}
